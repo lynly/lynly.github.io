@@ -4,11 +4,118 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+  <title>lyn.ly</title>
 </head>
 <body>
-  <div class="container">
-    <h1>lyn.ly</h1>
-  </div>
+  <nav>
+    <div class="container">
+      <div id="side-nav" class="sidenav">
+        <span class="closebtn" onclick="closeNav()"><i class="material-icons">clear</i></span>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <span style="cursor:pointer" class="hide-on-monitor button-collapse left" onclick="openNav()"><i class="material-icons">menu</i></span>
+      <a href="#top" class="brand-logo">lyn.ly</a>
+
+      <ul class="right">
+        <li class="hide-on-tablet hide-on-mobile"><a href="#about">About</a></li>
+        <li class="hide-on-tablet hide-on-mobile"><a href="#projects">Projects</a></li>
+        <li class="hide-on-tablet hide-on-mobile"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main>
+    <div id="top" class="hero">
+      <div class="logo">
+        <div class="top">
+          <p>code</p>
+        </div>
+        <div class="bottom">
+          <p>design</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="hello row container">
+        <h1>Hello</h1> <br>
+      </div>
+      <div class="row container">
+        <div class="info column lg-col-6 md-col-6 sm-col-12">
+          <p>I’m a Sydney-based creative Front-end Developer, passionate about design and user experience. I enjoy finding innovative ways of implementing code to solve problems. <br><br>
+          I recently graduated from General Assembly’s Web Development Immersive course, with a few new skills under my belt. And really excited to begin my journey in an industry that constantly evolves and challenges you to never stop learning new things everyday. <br><br>
+          Now, something interesting about me? I am a creative at heart, love all things design, a massive foodie, a wanderer and like to dabble in photography. <br><br>
+          Keep scrolling to find out a bit more about how my journey to web development all began.</p>
+          <a href="#projects" class="button">
+            <p>projects</p>
+          </a>
+          <a href="#contact" class="button">
+            <p>contact</p>
+          </a>
+        </div>
+        <div class="skills column lg-col-6 md-col-6 sm-col-12">
+          <h2>Skills</h2><br>
+          <img src="images/html5.svg" alt="html5">
+          <img src="images/css3.svg" alt="css3">
+          <img src="images/javascript.svg" alt="javascript">
+          <img src="images/jquery.svg" alt="jquery">
+          <img src="images/materialize.svg" alt="materialize">
+          <img src="images/github.svg" alt="github">
+          <img src="images/ruby.svg" alt="ruby">
+          <img src="images/rails.svg" alt="rails">
+          <img src="images/postgresql.svg" alt="postgresql">
+          <img src="images/indesign.svg" alt="indesign">
+          <img src="images/illustrator.svg" alt="illustrator">
+          <img src="images/photoshop.svg" alt="photoshop">
+        </div>
+      </div>
+    </div>
+    <div class="aprilia row">
+      <div class="column lg-col-12 md-col-12 sm-col-12">
+        <img src="images/aprilia_mockup.jpg" alt="aprilia">
+      </div>
+    </div>
+
+    <div id="begin">
+      <div class="row container">
+        <div class="beginning column lg-col-6 md-col-6 sm-col-12">
+          <h2>Where it all began ... </h2><br>
+          <p>I’m a Sydney-based creative Front-end Developer, passionate about design and user experience. I enjoy finding innovative ways of implementing code to solve problems. <br><br>
+          I recently graduated from General Assembly’s Web Development Immersive course, with a few new skills under my belt. And really excited to begin my journey in an industry that constantly evolves and challenges you to never stop learning new things everyday. <br><br>
+          Now, something interesting about me? I am a creative at heart, love all things design, a massive foodie, a wanderer and like to dabble in photography. <br><br>
+          Keep scrolling to find out a bit more about how my journey to web development all began.</p>
+        </div>
+        <div class="beginning column lg-col-6 md-col-6 sm-col-12">
+        </div>
+      </div>
+    </div>
+
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© lyn.ly 2017. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+  function openNav() {
+  document.getElementById("side-nav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("side-nav").style.width = "0";
+}
+</script>
+
+
 </body>
 </html>
