@@ -23,6 +23,10 @@ h2 {
   text-transform: uppercase;
 }
 
+h4 {
+  text-transform: uppercase;
+}
+
 nav {
   position: fixed;
   height: 70px;
@@ -129,6 +133,7 @@ main {
 footer {
   height: 50px;
   background: #e9ebed;
+  margin-top: 60px;
 }
 
 footer p {
@@ -168,9 +173,28 @@ footer p {
   border-bottom: 2px solid #ffffff;
 }
 
+#about, .aprilia, #begin, #wireframe, #waste-not, #doctor  {
+  display: inline-block;
+}
+
 #about {
   min-height: 641px;
 }
+
+#begin  {
+  min-height: 425px;
+}
+
+#wireframe, #doctor {
+  background-color: #e9ebed;
+  min-height: 552px;
+}
+
+#waste-not  {
+  min-height: 408px;
+  overflow: hidden;
+}
+
 .info, .skills {
   padding: 0 60px 60px 60px;
 }
@@ -199,6 +223,8 @@ footer p {
   min-width: 120px;
   text-align: center;
 }
+
+
 
 /* /// RESPONSIVE FONT & GRIDS START /// */
 .row {
@@ -291,6 +317,23 @@ footer p {
     width: 100vw;
   }
 
+  .motoguzzi img {
+    margin: 0 auto;
+    padding-top: 33px;
+    width: 100%;
+  }
+
+  .wireframe img {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .waste-not img {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 100%;
+  }
 
 }
 
@@ -363,6 +406,16 @@ footer p {
     width: 100vw;
   }
 
+  .motoguzzi img {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 60px;
+  }
+
+  .wireframe img {
+    margin: 0 auto;
+    width: 100%;
+  }
 
 }
 
@@ -435,6 +488,17 @@ footer p {
     width: 100vw;
   }
 
+  .motoguzzi img {
+    margin: 0 auto;
+    width: 100%;
+    padding-bottom: 60px;
+  }
+
+  .wireframe img {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 60px;
+  }
 
 }
 /* /// RESPONSIVE FONT & GRIDS END /// */
