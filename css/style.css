@@ -191,8 +191,7 @@ footer p {
 }
 
 #waste-not  {
-  min-height: 408px;
-  overflow: hidden;
+  min-height: 468px;
 }
 
 .info, .skills {
@@ -210,6 +209,10 @@ footer p {
   display: block;
   padding-left: 60px;
   padding-top: 60px;
+}
+
+#contact .hello h1 {
+  padding-left: 0;
 }
 
 .button {
@@ -335,6 +338,10 @@ footer p {
     width: 100%;
   }
 
+  #waste-not {
+    height: 468px;
+  }
+
 }
 
 /* TABLET MEDIA QUERY */
@@ -415,6 +422,16 @@ footer p {
   .wireframe img {
     margin: 0 auto;
     width: 100%;
+  }
+
+  .waste-not img {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  #contact .info {
+    padding-bottom: 0;
   }
 
 }
@@ -500,5 +517,18 @@ footer p {
     padding-top: 60px;
   }
 
+  .waste-not img {
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  #contact .info {
+    padding-bottom: 0;
+  }
+
+  #contact .beginning {
+    padding-top: 0;
+  }
 }
 /* /// RESPONSIVE FONT & GRIDS END /// */
