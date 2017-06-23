@@ -66,11 +66,14 @@ a {
   color: #4b576e;
 }
 
- a:hover {
+a.button:hover {
   background-color: #4b576e;
   color: #ffffff;
 }
 
+#waste-not a {
+    text-decoration: underline;
+}
 ul {
   list-style-type: none;
   display: block;
