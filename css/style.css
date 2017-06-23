@@ -71,7 +71,7 @@ a.button:hover {
   color: #ffffff;
 }
 
-#waste-not a {
+#waste-not .team a {
     text-decoration: underline;
 }
 ul {
