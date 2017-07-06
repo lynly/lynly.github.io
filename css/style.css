@@ -193,9 +193,9 @@ footer p {
   min-height: 552px;
 }
 
-/*#waste-not  {
+#waste-not  {
   min-height: 468px;
-}*/
+}
 
 .info, .skills {
   padding: 0 60px 60px 60px;
@@ -250,7 +250,7 @@ footer p {
 
 
 /* DESKTOP MEDIA QUERY */
-/*@media only screen and (max-width: 1560px) and (min-width: 1281px) {*/
+@media only screen and (min-width: 1561px) {
   .hide-on-monitor {
     display: none;
   }
@@ -314,12 +314,110 @@ footer p {
   }
 
   .aprilia {
-    /*height: 80%;*/
+    height: 80vh;
     overflow: hidden;
   }
 
   .aprilia img {
-    /*margin-top: -120px;*/
+    margin-top: -120px;
+    width: 100vw;
+  }
+
+  .motoguzzi img {
+    margin: 0 auto;
+    padding-top: 33px;
+    width: 100%;
+  }
+
+  .wireframe img {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  .waste-not img {
+    margin: 0 auto;
+    padding-top: 25px;
+    width: 100%;
+  }
+
+  #waste-not {
+    height: 500px;
+  }
+
+}
+
+/* LAPTOP MEDIA QUERY */
+@media only screen and (max-width: 1560px) and (min-width: 1281px) {
+  .hide-on-monitor {
+    display: none;
+  }
+
+  .lg-col-12 {
+    width: 100%;
+  }
+
+  .lg-col-9 {
+    width: 75%;
+  }
+
+  .lg-col-8 {
+    width: -webkit-calc(100% / 12 * 8);
+    width: -moz-calc(100% / 12 * 8);
+    width: -ms-calc(100% / 12 * 8);
+    width: -o-calc(100% / 12 * 8);
+    width: calc(100% / 12 * 8);
+  }
+
+  .lg-col-7 {
+    width: -webkit-calc(100% / 12 * 7);
+    width: -moz-calc(100% / 12 * 7);
+    width: -ms-calc(100% / 12 * 7);
+    width: -o-calc(100% / 12 * 7);
+    width: calc(100% / 12 * 7);
+  }
+
+  .lg-col-6 {
+    width: 50%;
+  }
+
+  .lg-col-5 {
+    width: -webkit-calc(100% / 12 * 5);
+    width: -moz-calc(100% / 12 * 5);
+    width: -ms-calc(100% / 12 * 5);
+    width: -o-calc(100% / 12 * 5);
+    width: calc(100% / 12 * 5);
+  }
+
+  .lg-col-4 {
+    width: -webkit-calc(100% / 3);
+    width: -moz-calc(100% / 3);
+    width: -ms-calc(100% / 3);
+    width: -o-calc(100% / 3);
+    width: calc( 100% / 3 );
+  }
+
+  .lg-col-3 {
+    width: 25%;
+  }
+
+  .lg-col-3-offset {
+    margin-left: 25%;
+  }
+
+  .skills img  {
+    width: 90px;
+    display: inline-block;
+    margin: 8px 14.5px;
+  }
+
+  .aprilia {
+    height: 80vh;
+    overflow: hidden;
+  }
+
+  .aprilia img {
+    margin-top: -120px;
     width: 100vw;
   }
 
@@ -345,7 +443,7 @@ footer p {
     height: 468px;
   }
 
-/*}*/
+}
 
 /* TABLET MEDIA QUERY */
 @media only screen and (max-width: 1280px) and (min-width: 841px) {
