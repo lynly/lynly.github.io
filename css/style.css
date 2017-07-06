@@ -193,9 +193,9 @@ footer p {
   min-height: 552px;
 }
 
-#waste-not  {
+/*#waste-not  {
   min-height: 468px;
-}
+}*/
 
 .info, .skills {
   padding: 0 60px 60px 60px;
@@ -314,12 +314,12 @@ footer p {
   }
 
   .aprilia {
-    height: 80%;
+    /*height: 80%;*/
     overflow: hidden;
   }
 
   .aprilia img {
-    margin-top: -120px;
+    /*margin-top: -120px;*/
     width: 100vw;
   }
 
@@ -345,7 +345,7 @@ footer p {
     height: 468px;
   }
 
-}
+/*}*/
 
 /* TABLET MEDIA QUERY */
 @media only screen and (max-width: 1280px) and (min-width: 841px) {
