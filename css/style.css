@@ -198,7 +198,9 @@ footer p {
 }
 
 .healing-glow {
+  align-items: center;
   display: flex;
+  justify-content: center;
 }
 
 #waste-not  {
