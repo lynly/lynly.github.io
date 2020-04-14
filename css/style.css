@@ -176,7 +176,7 @@ footer p {
   border-bottom: 2px solid #ffffff;
 }
 
-#about, .aprilia, #begin, #wireframe, #waste-not, #doctor  {
+#about, .aprilia, #begin, #wireframe, #waste-not, #doctor, #healing-glow  {
   display: inline-block;
 }
 
@@ -191,6 +191,14 @@ footer p {
 #wireframe, #doctor {
   background-color: #e9ebed;
   min-height: 552px;
+}
+
+#healing-glow {
+  background-color: #e9ebed;
+}
+
+.healing-glow {
+  display: flex;
 }
 
 #waste-not  {
@@ -229,8 +237,6 @@ footer p {
   min-width: 120px;
   text-align: center;
 }
-
-
 
 /* /// RESPONSIVE FONT & GRIDS START /// */
 .row {
@@ -344,7 +350,12 @@ footer p {
   #waste-not {
     height: 500px;
   }
-
+  
+  .healing-glow img {
+    margin: 0 auto;
+    padding-top: 55px;
+    width: 50%;
+  }
 }
 
 /* LAPTOP MEDIA QUERY */
@@ -388,7 +399,7 @@ footer p {
     width: -o-calc(100% / 12 * 5);
     width: calc(100% / 12 * 5);
   }
-
+  
   .lg-col-4 {
     width: -webkit-calc(100% / 3);
     width: -moz-calc(100% / 3);
@@ -406,7 +417,7 @@ footer p {
   }
 
   .skills img  {
-    width: 90px;
+    width: 80px;
     display: inline-block;
     margin: 8px 14.5px;
   }
@@ -441,6 +452,12 @@ footer p {
 
   #waste-not {
     height: 468px;
+  }
+
+  .healing-glow img {
+    margin: 0 auto;
+    padding-top: 55px;
+    width: 50%;
   }
 
 }
@@ -505,7 +522,7 @@ footer p {
   }
 
   .skills img  {
-    width: 80px;
+    width: 70px;
     display: inline-block;
     margin: 7px 14.5px;
   }
@@ -535,6 +552,11 @@ footer p {
     padding-bottom: 0;
   }
 
+  .healing-glow img {
+    margin: 0 auto;
+    padding-top: 55px;
+    width: 70%;
+  }
 }
 
 /* PHONE MEDIA QUERY */
@@ -597,7 +619,7 @@ footer p {
   }
 
   .skills img  {
-    width: 76px;
+    width: 56px;
     display: inline-block;
     margin: 7px 14.5px;
   }
@@ -625,11 +647,34 @@ footer p {
   }
 
   #contact .info {
-    padding-bottom: 0;
+    padding: 0;
   }
 
   #contact .beginning {
     padding-top: 0;
+  }
+
+  .beginning {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .info, .skills {
+    padding: 0 0 60px 0;
+  }
+
+  .hello h1 {
+    padding-left: 0;
+  }
+
+  .logo {
+    padding: 10px 20px;
+  }
+
+  .healing-glow img {
+    margin: 0 auto;
+    padding-top: 55px;
+    width: 80%;
   }
 }
 /* /// RESPONSIVE FONT & GRIDS END /// */
